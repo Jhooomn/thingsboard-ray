@@ -19,6 +19,8 @@ $md-light: rgba(255, 255, 255, 100%) !default;
 
 .tb-relation-table {
   md-toolbar.md-table-toolbar.alternate {
+    //cuadro sobre el menu
+    background-color: #187348 !important;
     .md-toolbar-tools {
       md-icon {
         color: $md-light;

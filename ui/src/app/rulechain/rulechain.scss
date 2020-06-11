@@ -44,12 +44,14 @@
     md-toolbar {
       height: 48px;
       min-height: 48px;
+      background-color: #187348 !important;
 
       .md-toolbar-tools > .md-button:last-child {
         margin-right: 0;
       }
 
       .md-toolbar-tools {
+
         height: 48px;
         padding: 0 6px;
         font-size: 14px;

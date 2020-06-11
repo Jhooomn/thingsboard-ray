@@ -171,6 +171,8 @@ md-toolbar md-input-container .md-errors-spacer {
 md-toolbar {
   md-select.md-default-theme:not([disabled]):focus .md-select-value,
   md-select:not([disabled]):focus .md-select-value {
+    color: #187348 !important;
+
     color: #fff;
   }
 }
@@ -343,18 +345,25 @@ pre.tb-highlight {
 }
 
 .tb-data-table {
+  background-color: #187348 !important;
+
   md-toolbar {
+    background-color: #187348 !important;
     z-index: 0;
   }
 
   md-toolbar.md-table-toolbar.md-default-theme:not(.md-menu-toolbar).md-default .md-button[disabled],
   md-toolbar.md-table-toolbar:not(.md-menu-toolbar).md-default .md-button[disabled] {
     color: rgba(0, 0, 0, .38);
+    background-color: #187348 !important;
+
   }
 
   md-toolbar.md-default-theme:not(.md-menu-toolbar) .md-button[disabled] md-icon,
   md-toolbar:not(.md-menu-toolbar) .md-button[disabled] md-icon {
     color: rgba(0, 0, 0, .28);
+    background-color: #187348 !important;
+
   }
 
   span.no-data-found {

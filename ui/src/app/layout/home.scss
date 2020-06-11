@@ -77,13 +77,16 @@ md-icon.tb-logo-title {
   flex-shrink: 0;
   white-space: nowrap;
   border-bottom: 1px solid rgba(0, 0, 0, .12);
-
+  background-color: #187348 !important;
   .md-toolbar-tools {
+    background-color: #187348 !important;
     flex-basis: auto;
   }
 }
 
 .tb-side-menu-toolbar {
+  //barra izquierda
+  background-color: #187348 !important;
   overflow-y: auto;
 }
 
